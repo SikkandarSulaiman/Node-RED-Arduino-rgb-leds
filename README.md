@@ -1,8 +1,8 @@
 # Node-RED-Arduino-rgb-leds
 a UI created in Node-RED to communicate with Arduino to control and display intensity of rgb leds
-------------------------------------------------------------------------------------------------
-Node-RED flow:
 
+Node-RED flow:
+------------------------------------------------------------------------------------------------
 Before starting this project update your Node-RED, npm and install node-red-contrib-ui
 
 Then copy fom the text file, open Node-RED -> import -> copy from clipboard and paste it.
@@ -16,9 +16,9 @@ Arduino sketch:
 
 The sketch serially receives commands and generate pwm signals specified in the commands.
 It also transmits analog voltage read from LDR which is the rough intensity range.
-------------------------------------------------------------------------------------------------
-Hardware Setup:
 
+Hardware Setup:
+------------------------------------------------------------------------------------------------
 Here I'm using a common cathode rgb led.
 Green leg of rgb led is connected to digital pin 2 of Arduino.
 Red leg of rgb led is connected to digital pin 3 of Arduino.
