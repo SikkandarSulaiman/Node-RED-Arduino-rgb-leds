@@ -11,9 +11,9 @@ Now you'll be seeing the configured nodes.
 There are 2 nodes named Arduino. Open both nodes and specify the address of your Arduino board.
 For example specify the COM port if you're using windows.
 If necessary click gauge node and change the min and max values according to your environment light.
-------------------------------------------------------------------------------------------------
-Arduino sketch:
 
+Arduino sketch:
+------------------------------------------------------------------------------------------------
 The sketch serially receives commands and generate pwm signals specified in the commands.
 It also transmits analog voltage read from LDR which is the rough intensity range.
 
