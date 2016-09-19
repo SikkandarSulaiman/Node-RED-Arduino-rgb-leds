@@ -29,4 +29,4 @@ Make sure all the connections are made through suitable resistors.
 Connect 1 leg of LDR to any of the 5v pins of Arduino and another leg to analog pin A1.
 Take a 12k ohm (approx) resistor and connect from analog pin A1 to any of the ground pins of Arduino.
 
-Arduino must be connected to pc serially using a (typical Arduino) usb type A to type B cable.
+Arduino must be connected to pc serially using a (typical Arduino) usb type A to type B cable which is not shown in the hardware setup image.
