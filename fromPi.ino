@@ -6,6 +6,7 @@ void setup() {
   pinMode(A3,1);
   pinMode(A1,0);
   analogWrite(A3,1024);
+  Serial.println(analogRead(A1));
 }
 
 void loop() {
